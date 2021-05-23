@@ -21,5 +21,5 @@ from django.conf.urls import url
 urlpatterns = [
     path('admin/', admin.site.urls),
     re_path(r'^api/weather/$', views.weather_list),
-    re_path(r'^api/weather/([0-9])$', views.weatch_details),
+    re_path(r'^api/weather/([0-9])$', views.weather_detail),
 ]
